@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<Header>
+  <h1 id="title"> FreeCodeCampChallenge </h1>
+  <link rel="stylesheet" href="styles.css">
+</header>
+
+<body>
+  <p id="description">
+    Fill details below in my FreeCodeCampChallenge form.
+  </p>
+
+  <form id="survey-form">
+
+    <label class="inputLabel" id="name-label"> Name </label>
+    <input class="inputs"id="name" type="text" name="name" placeholder="Enter your name here" required> </input>
+    <br>
+    <label class="inputLabel"id="email-label"> Email </label>
+    <input class="inputs"id="email" type="email" name="email" placeholder="Enter your email here" required> </input>
+    <br>
+    <label class="inputLabel"id="number-label"> Age </label>
+    <input class="inputs"id="number" type="number" name="number" min="18" max="100" placeholder="Enter your age here " required> </input>
+    <br>
+
+    <label id="model" style="width: 90vw;"> Select option from dropdown: </label>
+    <select id="dropdown">
+      <option value="Option1"> Option1</option>
+      <option value="Option2"> Option2</option>
+      <option value="Option3"> Option3</option>
+    </select>
+    <br>
+    <br>
+
+    <label><b>Select attribute :</b></label>
+      <br>
+      <input id="attributes" type="radio" name="attributes" value="Attribute1">
+      <label>Attribute 1 </label>
+      <br>
+      <input id="attributes" type="radio" name="attributes" value="Attribute2">
+      <label>Attribute 2</label>
+      <br>
+      <input id="attributes" type="radio" name="attributes" value="Attribute3">
+      <label>Attribute 3</label>
+      <br>
+      <br>
+
+      <label><b>Select other features:</b></label>
+      <br>
+
+      <input id="checkbox" type="checkbox" name="features" value="feature1">
+      <label> Feature 1</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="features" value="feature1">
+      <label> Feature 2</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="features" value="feature1">
+      <label> Feature 3</label>
+      <br>
+      <br>
+
+      <label id="textarea">Add comments:</label>
+      <br>
+      <textarea name="name" rows="5" cols="50"></textarea>
+      <br>
+      <button type="submit" id="submit" name="button">Submit form</button>
+
+  </form>
+</body>
+
+
+</html>
